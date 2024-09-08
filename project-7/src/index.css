@@ -1,0 +1,25 @@
+/* src/App.css */
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+/* src/components/CourseCard.module.css */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
+.image {
+  width: 100%;
+  height: auto;
+}
+/* src/components/EnrollForm.module.css */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
